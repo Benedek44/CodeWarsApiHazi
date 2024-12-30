@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codewars Felhasználók</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Felhasználó Keresése a Codewars-on</h1>
+    
+    <form id="user-form">
+      <label for="usernames">Felhasználónevek (vesszővel elválasztva):</label>
+      <input type="text" id="usernames" name="usernames" placeholder="Add meg a felhasználóneveket vesszővel elválasztva" required>
+      <button type="submit">Keresés</button>
+    </form>
+
+    <div id="user-cards" class="card-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
